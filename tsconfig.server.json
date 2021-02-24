@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/server",
+      "types": ["node"],
+      "target": "es2018",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+    },
+    "files": ["server/index.ts"],
+    "exclude": ["node_modules","**/*.test.ts"]
+  }
+  
